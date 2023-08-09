@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import openai
+import chromadb
 
 from langchain.llms import OpenAI
 from langchain.text_splitter import CharacterTextSplitter
